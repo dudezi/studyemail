@@ -1,4 +1,4 @@
-package com.market.studyemail.domain.home;
+package com.market.studyemail.domain.home.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +9,6 @@ public class MainController {
     @RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "홈입니다.";
+        return "home/main";
     }
 }
